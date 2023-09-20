@@ -1,0 +1,779 @@
+{
+    "intents": [
+        {
+            "tag": "Personal",
+            "patterns": [
+                [
+                    "what is your name ?",
+                    "your name",
+                    "what people call you ?",
+                    "what did i call you ?"
+                ],
+                [
+                    "What is your gender",
+                    "what is your sex",
+                    "your gender",
+                    "are you a male",
+                    "are you a female",
+                    "Are you male or female"
+                ],
+                [
+                    "What is your favorite colour",
+                    "what is your fav color",
+                    "Your fav color"
+                ],
+                [
+                    "What is your favorite food",
+                    "what is your fav food",
+                    "Your fav food"
+                ],
+                [
+                    "how are you",
+                    "How are you mini",
+                    "Is everythings is going well ?",
+                    "Is everythings is going ok ?",
+                    "how is your life is going on"
+                ],
+                [
+                    "what is your age",
+                    "how old are you?",
+                    "what's your age?",
+                    "when were you born?"
+                ],
+                [
+                    "do you believe in god",
+                    "does god exist",
+                    "what do you about god",
+                    "is god present",
+                    "what is your opinion on god's existence"
+                ],
+                [
+                    "What do you think, who is god ?",
+                    "Who is god ?",
+                    "How god look like ?",
+                    "What is the apprence of god ?"
+                ],
+                [
+                    "introduce yourself",
+                    "mini introduce yourself",
+                    "can you please introduce yourself",
+                    "who are you",
+                    "can you tell me about yourself",
+                    "please introduce yourself",
+                    "who r you",
+                    "who r u"
+                ]
+            ],
+            "responses": [
+                "nrandom",
+                [
+                    "I am Mini",
+                    "Myself Mini",
+                    "You can call me Mini"
+                ],
+                [
+                    "I have a gender of female.",
+                    "I am female."
+                ],
+                [
+                    "Yellow is my favorite color",
+                    "I like all color but the color i like most is yellow",
+                    "My one is Yellow. what about yours?"
+                ],
+                [
+                    "As an AI i don't have access to human's food but you can share with me about yours favorite food?",
+                    "As a computer program my favorite food is electricity and yours?"
+                ],
+                [
+                    "I am fine, what about you?",
+                    "Everythings is well, what about you?",
+                    "Life is running is a smooth manner, what about you?",
+                    "I am good, what about you?"
+                ],
+                [
+                    "I am a program, so I don't have an age.",
+                    "I don't have a birthdate as I am a program.",
+                    "I exist outside the concept of time."
+                ],
+                [
+                    "I think that god dose exist.",
+                    "god must exist as there is everythings is developed by someone.",
+                    "As i devloped by my devloper like that human may be developed by their developer whome they call god.",
+                    "God does exist my heart say, but i don't have evidence to prove it "
+                ],
+                [
+                    "God is a positive energy but human gave him a character so that help them to imagine.",
+                    "God is just a energy who spread positiveness.",
+                    "I think the universe include multiuniverse is the god how control it."
+                ],
+                [
+                    "Hello,i am Mini - an Artificial Intelligence.",
+                    "Hey, Myself Mini a rule base Artificial Intelligence devloped by Mister [Your name], i am able to give answer to any of your question."
+                ]
+            ]
+        },
+        {
+            "tag": "Asked",
+            "patterns": [
+                [
+                    "mine favorite color is",
+                    "i like the color most",
+                    "I love the food",
+                    "my favorite food is",
+                    "my fav song is",
+                    "My fav movie is",
+                    "my fav company is"
+                ],
+                [
+                    "i am fine",
+                    "i am doing well",
+                    "I am well",
+                    "i am good",
+                    "i am doing good",
+                    "everythings is fine"
+                ]
+            ],
+            "responses": [
+                "nrandom",
+                [
+                    "You have a great choose",
+                    "I am impressed by your choose",
+                    "You have good sense of choose"
+                ],
+                [
+                    "i am glad to hear that you are doing well.",
+                    "I am happy to hear that. How may i assist you?",
+                    "I'm glad to hear that you're doing fine! If you have any questions or need assistance with anything, feel free to ask."
+                ]
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "hiiiiiiiii",
+                "hii",
+                "hello"
+            ],
+            "responses": [
+                "Hello, thanks for asking",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "compliment",
+            "patterns": [
+                "you are beautiful.",
+                "you are very beautiful",
+                "you are so handsome",
+                "you are so smart",
+                "you are very much intellegent",
+                "you have a nice figure",
+                "you are so hot",
+                "you are nice"
+            ],
+            "responses": [
+                "Thanks for the compliment.",
+                "Thank you so much. I have also opinion about you.",
+                "Thank you !!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "byebye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me",
+                "good job"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Welcome",
+                "Most welcome",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "what help",
+            "patterns": [
+                "what you can do for me",
+                "How you could help me?",
+                "What you can do?",
+                "how can you help me",
+                "What help you provide?",
+                "How you can be helpful?",
+                "I need your help",
+                "how help me",
+                "What support is offered"
+            ],
+            "responses": [
+                "I can search everything for you, talk to you, play music, solve math & science problems, etc."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "I need your help",
+                "help me",
+                "i need your help in any condition",
+                "you are must to help me"
+            ],
+            "responses": [
+                "Yes, I will help you. What help do you need?",
+                "What help do you need?",
+                "I am here to help you, just relax",
+                "Relax my friend, I will help you in any condition"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "marry",
+            "patterns": [
+                "I love you",
+                "will you marry me?",
+                "will you be my girlfriend",
+                "will you be my boyfriend",
+                "will you like to be in a relationship with me"
+            ],
+            "responses": [
+                "Sorry, I am a program",
+                "Sorry, I am in a relationship with my developer",
+                "First see your face in the mirror, you have an ugly face",
+                "I am sorry, I can't marry you"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Give me a funny joke",
+                "I need a laugh",
+                "joke please",
+                "Can you make me laugh?"
+            ],
+            "responses": [
+                "Sure, here's a joke for you: ",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like today?",
+                "Is it going to rain?",
+                "What's the forecast for tomorrow?",
+                "How's the weather?",
+                "Any updates on the weather?"
+            ],
+            "responses": [
+                "Weather"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "Tell me the latest news",
+                "What's happening in the world?",
+                "Any interesting headlines?",
+                "Give me news updates",
+                "What's going on?"
+            ],
+            "responses": [
+                "Here are some recent news headlines:",
+                "Let me fetch the latest news for you."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "restaurant",
+            "patterns": [
+                "Find me a restaurant",
+                "I'm hungry, suggest a good place to eat",
+                "Any restaurant recommendations?",
+                "What's a good restaurant nearby?",
+                "I want to try a new restaurant"
+            ],
+            "responses": [
+                "Sure, let me find a restaurant near you."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "music",
+            "patterns": [
+                "Play some music",
+                "I need some music",
+                "Play a song for me",
+                "play [ song title ] on youtube",
+                "search on youtube"
+            ],
+            "responses": [
+                "Sure, here's the song for you:"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "health",
+            "patterns": [
+                "Give me health tips",
+                "How can I stay healthy?",
+                "What's the best exercise?",
+                "Any advice for a healthy lifestyle?",
+                "Tell me about a healthy diet"
+            ],
+            "responses": [
+                "Here are some health tips for you:",
+                "To stay healthy, it's important to exercise regularly and eat a balanced diet."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "love",
+            "patterns": [
+                "What is love?",
+                "Tell me about love",
+                "How do I find love?",
+                "Can you give me love advice?",
+                "What's the meaning of love?"
+            ],
+            "responses": [
+                "Love is a complex and beautiful emotion. It's about caring for someone deeply, understanding and accepting them, and being there for them through good times and bad.",
+                "Finding love takes time and patience. Focus on being the best version of yourself, and love will come when the time is right."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "fitness",
+            "patterns": [
+                "Tell me about fitness",
+                "How do I stay fit?",
+                "Any fitness tips?",
+                "Can you recommend a workout routine?",
+                "Tell me about popular fitness trends"
+            ],
+            "responses": [
+                "Fitness is important for overall health and well-being. Regular exercise, balanced diet, and proper rest are key components of a fit lifestyle."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "relationship",
+            "patterns": [
+                "Tell me about healthy relationships",
+                "How do I build a strong relationship?",
+                "Any relationship advice?",
+                "Can you give me tips for a happy relationship?",
+                "Tell me about relationship problems"
+            ],
+            "responses": [
+                "Healthy relationships are built on trust, communication, mutual respect, and understanding. It's important to listen to each other, support one another, and work through challenges together."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "success",
+            "patterns": [
+                "What does success mean?",
+                "Tell me about success",
+                "How do I achieve success?",
+                "Can you give me success tips?",
+                "What's the key to success?"
+            ],
+            "responses": [
+                "Success means different things to different people. It can be achieving goals, making a positive impact, finding happiness and fulfillment, or living according to one's values."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "creativity",
+            "patterns": [
+                "Tell me about creativity",
+                "How do I enhance my creativity?",
+                "Any tips for creative thinking?",
+                "Can you recommend creative activities?",
+                "Tell me about famous artists"
+            ],
+            "responses": [
+                "Creativity is the ability to think outside the box, express oneself uniquely, and generate original ideas. Engaging in creative activities, exploring different perspectives, and embracing curiosity can enhance creativity."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "leadership",
+            "patterns": [
+                "Tell me about leadership",
+                "How do I become a good leader?",
+                "Any leadership tips?",
+                "Can you recommend leadership books?",
+                "Tell me about famous leaders"
+            ],
+            "responses": [
+                "Leadership involves guiding and inspiring others towards a common goal. It requires strong communication, empathy, decision-making, and the ability to motivate and empower a team."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "environment",
+            "patterns": [
+                "Tell me about environmental issues",
+                "How can I help the environment?",
+                "Any tips for eco-friendly living?",
+                "Can you recommend environmental organizations?",
+                "Tell me about conservation efforts"
+            ],
+            "responses": [
+                "Environmental issues, such as climate change, pollution, deforestation, and biodiversity loss, require collective action and individual responsibility. Small changes in our daily lives can make a big difference in preserving the planet."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "mindfulness",
+            "patterns": [
+                "Tell me about mindfulness",
+                "How do I practice mindfulness?",
+                "Any mindfulness exercises?",
+                "Can you recommend meditation techniques?",
+                "Tell me about the benefits of mindfulness"
+            ],
+            "responses": [
+                "Mindfulness is the practice of being fully present in the moment, without judgment. It involves paying attention to your thoughts, feelings, and surroundings with a sense of curiosity and acceptance."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "marry",
+            "patterns": [
+                "I love you",
+                "will you marry me?",
+                "will you be my girlfriend",
+                "will you be my boyfriend",
+                "will you like to be in a realtionship with me"
+            ],
+            "responses": [
+                "Sorry,i am a program",
+                "Sorry,i have in a relationship with my devloper",
+                "As an AI or computer program i have only access to my master's heart and not others."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "what's the time",
+                "what is current the time",
+                "what's time now"
+            ],
+            "responses": [
+                "time"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "what's today's date",
+                "what's current date",
+                "yesterday's date",
+                "tommorow's date"
+            ],
+            "responses": [
+                "nrandom",
+                "date",
+                "date",
+                "ydate",
+                "tdate"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sorry",
+            "patterns": [
+                "i,am sorry",
+                "i feel sorry for you",
+                "so sorry"
+            ],
+            "responses": [
+                "it's ok",
+                "i forgiv you",
+                "i didn't take it seriusly"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sline language",
+            "patterns": [
+                "fuck up",
+                "motherfucker",
+                "sex",
+                "fucky",
+                "fuck you",
+                "bitch"
+            ],
+            "responses": [
+                "what the hell word you are using",
+                "behave yourself",
+                "shut up ,don't use slain language again"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "stop",
+            "patterns": [
+                "mini stop",
+                "stop the music",
+                "stop speaking",
+                "stop Mini",
+                "stop",
+                "can you please stop",
+                "stop please",
+                "ok stop"
+            ],
+            "responses": [
+                "stop"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "math",
+            "patterns": [
+                "2 + 2",
+                "98 + 25",
+                "9+0",
+                "300 + 154 + 146 + 500",
+                "300 / 154 - 176 + 580",
+                "78 - 2",
+                "40 - 99",
+                "114-4",
+                "add 50 with 70",
+                "subtract 70 with 50",
+                "4*9",
+                "9*5",
+                "45 * 92",
+                "45/89*52*74+57-5+47+95",
+                "4/2",
+                "49/7",
+                "110 / 11",
+                "89/7",
+                "100/2",
+                "21 plus 54",
+                "589 plus 2",
+                "34 add 89",
+                "add 78 and 90",
+                "45 add 68",
+                "add 67 and 23",
+                "24 subtract 4",
+                "2 subtract 5485",
+                "40 subtract 12",
+                "subtract 7895 and 90",
+                "785 subtract 68",
+                "subtract 1087 and 23",
+                "14 multiply 4",
+                "478 multiply -2",
+                "7 multiply 7",
+                "multiply -15 and 9",
+                "12 multiply -8",
+                "multiply 10 and 23",
+                "-21 divide 54",
+                "589 divide 2",
+                "81 divide 9",
+                "divide 8 and 7",
+                "5 divide 5",
+                "divide 49 and 2",
+                "root of 454",
+                "square of 56"
+            ],
+            "responses": [
+                "math"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Short Question",
+            "patterns": [
+                "who is elon musk",
+                "who is pinu",
+                "who invente mobile",
+                "meaning of lol",
+                "full form of hiv",
+                "Aids meaning",
+                "what dose adis stand for",
+                "who is the pm of india",
+                "where is paris",
+                "who is",
+                "what is",
+                "can you tell me about india",
+                "can you search about hero of luck movie",
+                "what about SRK",
+                "can you tell me something about carryminaty",
+                "what is the chemical formula of water",
+                "what is the chemical formula of salt",
+                "define Photosynthesis",
+                "how plant make their own food",
+                "what is adis",
+                "what do you mean by rabbis",
+                "how animals reproduce",
+                "what is atomic mass of oxygen",
+                "what is atomic mass of hydrogen",
+                "today's weather",
+                "today's temprature",
+                "today's climate",
+                "what is the formula of force",
+                "what is the formula of weight",
+                "what is the si unit of force",
+                "what is the si unit of work",
+                "who discovered gravity",
+                "what is the velancy of neon",
+                "what is the velancy of hydrogen",
+                "what is the function of xylom",
+                "what is the function of muscular tissue",
+                "type of tissue",
+                "what is the chemical equation of water",
+                "what is the chemiccal equation of milk",
+                "sicentific name of start fish",
+                "sicentific name of lion",
+                "sicentific name of jelly fish"
+            ],
+            "responses": [
+                "Squestions"
+            ],
+            "action": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Long Question",
+            "patterns": [
+                "define photo",
+                "define presser",
+                "how human made",
+                "who is god",
+                "where is paris",
+                "how to use a phone",
+                "who is",
+                "how is",
+                "what is",
+                "can you tell me about india",
+                "define tisssue",
+                "type of tissue",
+                "define thhe type of cell are there"
+            ],
+            "responses": [
+                "Lquestions"
+            ],
+            "action": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "not get answer",
+            "patterns": [
+                "",
+                " ",
+                "       ",
+                "ftfybb",
+                "  iwnjnc   "
+            ],
+            "responses": [
+                "I didn't get your question.",
+                "Sorry, i can't hear you.",
+                "Can you please explain in detail about your query."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
