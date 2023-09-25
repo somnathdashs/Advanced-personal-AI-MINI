@@ -3,7 +3,7 @@ import nltk # pip install nltk
 from nltk.stem.porter import PorterStemmer
 from nltk import word_tokenize
 
-nltk.download("punkt")
+# nltk.download("punkt")
 
 Stemmer=PorterStemmer()
 
