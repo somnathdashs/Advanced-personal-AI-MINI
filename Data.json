@@ -723,9 +723,6 @@
             "responses": [
                 "Squestions"
             ],
-            "action": [
-                ""
-            ],
             "context": [
                 ""
             ]
@@ -749,9 +746,6 @@
             ],
             "responses": [
                 "Lquestions"
-            ],
-            "action": [
-                ""
             ],
             "context": [
                 ""
