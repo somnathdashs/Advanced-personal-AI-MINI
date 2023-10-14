@@ -550,7 +550,7 @@
             "patterns": [
                 ["what's today's date","today date","what's current date","what is today date"],
                 ["what's yesterday's date","yesterday date","what's previous date","what is yesterday date"],
-                ["what's tommorow's date","tommorow date","what's next day date","what is tommorow date"]
+                ["what's tommorow's date","tomorrow date","what's next day date","what is tommorow date"]
             ],
             "responses": [
                 "nrandom",

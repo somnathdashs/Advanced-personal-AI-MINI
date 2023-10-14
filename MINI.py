@@ -5,6 +5,7 @@ import pickle,random
 import Text_processing as T_Process
 from NRandom import FSCosine
 from Moduls.Sound import Speak,Listen
+from Moduls.Task import Task
 
 Dataset=json.load(open("./Data.json","r"))
 MINI_data=pickle.load(open("./MINI.pkl","rb"))
@@ -23,8 +24,8 @@ MINI=tf.keras.models.model_from_json(MINI_data["Architecture"])
 MINI.set_weights(MINI_data["Weight"])
 Tags=MINI_data["Tags"]
 
-while True:
-    User_input_str=Listen()
+def Mini(User_input_str):
+    print("You: ",User_input_str)
     User_input=Text_processing(User_input_str)
     answer=MINI.predict(User_input)
     index=np.argmax(answer)
@@ -39,7 +40,12 @@ while True:
                 else:
                     response=random.choice(intent["responses"])
         
-        Speak(response)
+        Speak(Task(response))
+
+Mini("Hello")
+
+while True:
+    Mini(Listen())
 
 
 
