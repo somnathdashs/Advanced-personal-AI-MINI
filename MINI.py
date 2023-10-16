@@ -25,6 +25,8 @@ MINI.set_weights(MINI_data["Weight"])
 Tags=MINI_data["Tags"]
 
 def Mini(User_input_str):
+    if User_input_str==1:
+        return
     print("You: ",User_input_str)
     User_input=Text_processing(User_input_str)
     answer=MINI.predict(User_input)
@@ -40,7 +42,7 @@ def Mini(User_input_str):
                 else:
                     response=random.choice(intent["responses"])
         
-        Speak(Task(response))
+        Speak(Task(response,User_input_str))
 
 Mini("Hello")
 

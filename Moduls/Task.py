@@ -1,6 +1,7 @@
 from datetime import datetime,date,timedelta
+import pywhatkit
 
-def Task(response_given):
+def Task(response_given,UserInput_str):
     response=str(response_given).lower()
     if "time" in response:
         return datetime.now().strftime("%I:%M %p")
@@ -15,5 +16,9 @@ def Task(response_given):
 
     elif "date" in response:
         return datetime.now().strftime("%d %B %Y")
+    
+    elif "music" in response:
+        pywhatkit.playonyt(UserInput_str)
+        return "Playing your song"
 
     return response_given
